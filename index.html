@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bradyn Flahart — Portfolio</title>
+  <meta name="description" content="Portfolio of Bradyn Flahart — web development projects, skills, and contact info." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="logo" href="#top">BF</a>
+      <nav class="nav">
+        <a href="#about"><span class="material-symbols-outlined">person</span> About</a>
+      <a href="#skills"><span class="material-symbols-outlined">code</span> Skills</a>
+      <a href="#projects"><span class="material-symbols-outlined">work</span> Projects</a>
+      <a href="#contact"><span class="material-symbols-outlined">mail</span> Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ===== HERO ===== -->
+    <section class="section hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Hi, I’m <span class="accent">Bradyn</span> — Web Developer</h1>
+          <p class="lead">
+            Coding is an art form that I express through my websites. If you need a clean, user-friendly site, I’d love to help.
+          </p>
+          <div class="actions">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn-ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+
+        <!-- Replace src with your image (square works best) -->
+        <figure class="hero-media">
+          <img src="https://i.pinimg.com/564x/34/a9/8f/34a98f49a5b1aff3477e54ed832191ac.jpg" alt="Portrait of Bradyn Flahart">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== VENOM BAND (one bold red/black moment) ===== -->
+    <section class="band band--venom">
+      <div class="container band-inner">
+        <h2><span class="venom-mark">Ideas. Code. Results.</h2>
+        <p>Where creativity meets engineering to deliver impactful results.</p>
+        <a class="btn btn-venom" href="#projects">See Projects</a>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section section-alt">
+      <div class="container narrow">
+        <h2 class="center with-sep">About</h2>
+        <p>
+          I’m a developer who enjoys turning ideas into polished, user-friendly websites. I focus on clean structure,
+          maintainable code, and strong UX fundamentals. I love to tinker with side web-projects, gaming content,
+          and creative experiments that level up my frontend skills.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section">
+      <div class="container narrow">
+        <h2 class="center with-sep">Skills</h2>
+        <ul class="chip-list center">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Responsive Design</li>
+          <li>Python</li>
+          <li>React.js</li>
+          <li>JavaScript</li>
+          <li>Git & GitHub</li>
+          <li>UI Prototyping</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2 class="center with-sep">Projects</h2>
+
+        <div class="grid">
+          <!-- CARD -->
+          <article class="card">
+            <div class="img-box" aria-hidden="true"></div>
+            <div class="card-body">
+              <h3>Responsive Landing Page</h3>
+              <p>A fast, semantic landing page built with modern HTML/CSS and accessible patterns.</p>
+              <div class="card-actions">
+                <a class="btn-ghost" href="#" target="_blank" rel="noopener">Live Demo</a>
+                <a class="btn" href="#" target="_blank" rel="noopener">Source Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD -->
+          <article class="card">
+            <div class="img-box" aria-hidden="true"></div>
+            <div class="card-body">
+              <h3>Portfolio Template</h3>
+              <p>Simple, extensible portfolio emphasizing clarity, color rhythm, and performance.</p>
+              <div class="card-actions">
+                <a class="btn-ghost" href="#" target="_blank" rel="noopener">Live Demo</a>
+                <a class="btn" href="#" target="_blank" rel="noopener">Source Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD (dark variant echoes Venom band) -->
+          <article class="card card-dark">
+            <div class="img-box img-box-dark" aria-hidden="true"></div>
+            <div class="card-body">
+              <h3>Utility Microsite</h3>
+              <p>Small tool site for portfolio.</p>
+              <div class="card-actions">
+                <a class="btn-ghost" href="#" target="_blank" rel="noopener">Live Demo</a>
+                <a class="btn" href="#" target="_blank" rel="noopener">Source Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section">
+      <div class="container narrow">
+        <h2 class="center with-sep">Contact</h2>
+        <p class="center">Want to collaborate or say hi?</p>
+        <ul class="contact-list center">
+          <li><a href="mailto:bradynflahart@gmail.com">Email</a></li>
+          <li><a href="https://www.linkedin.com/in/bradynflahart" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://github.com/btflahar" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Bradyn Flahart</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
